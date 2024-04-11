@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>All about Linux</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+  <header id="header">
+    <div class="header-content-div">
+      <a href="#home-sec">
+        <img src="./images/tux_logo_title.png" alt="Company Logo" id="header-img" /></a>
+      <nav id="nav-bar">
+        <a href="#about" class="nav-link">О сайте</a>
+        <a href="#distributions" class="nav-link">Дистрибутивы</a>
+        <a href="#docs" class="nav-link">Документация</a>
+        <a href="#about-linux" class="nav-link">О Linux</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="home-sec" class="flexible home-sec">
+      <div class="eye-grabber-img">
+        <img src="./images/tux_logo.png" alt="Linux logo" />
+      </div>
+      <div class="eye-grabber">
+        <h1>Открытая, надежная и гибкая</h1>
+        <h2>
+          Открой дверь в мир свободного программного обеспечения.
+        </h2>
+        <button class="btn" onclick="window.location.href = '#contact';">
+          Подписаться
+        </button>
+      </div>
+    </section>
+    <section id="about" class="sec-padding">
+      <h3 class="section-heading">О сайте</h3>
+      <div class="sec-content-div flexible">
+        <p>
+          Добро пожаловать на наш сайт, посвященный операционным системам на базе ядра Linux!
+          Здесь вы найдете всю необходимую информацию о различных дистрибутивах Linux, их особенностях, истории
+          развития, командах и многое другое. Присоединяйтесь к нам, чтобы углубить свои знания о мире Linux
+          и стать более уверенным пользователем этой мощной операционной системы!
+        </p>
+        <img src="./images/terminal_photo.jpg" alt="A man plucking apples from the tree" />
+      </div>
+    </section>
+    <section id="distributions" class="sec-padding">
+      <h3 class="section-heading">Дистрибутивы</h3>
+      <div class="sec-content-div flexible">
+        <div class="tile">
+          <img src="./images/ubuntu_image.png" alt="ubuntu screenshot" />
+          <h4>Ubuntu</h4>
+          <p>
+            Популярный дистрибутив операционной системы Linux, известный своей простотой использования,
+            обширной поддержкой и активным сообществом.
+          </p>
+        </div>
+        <div class="tile">
+          <img src="./images/fedora_image.png" alt="fedora screenshot" />
+          <h4>Fedora</h4>
+          <p>
+            Дистрибутив, который известен своей передовой технологической базой, активной разработкой и поддержкой
+            последних инноваций в мире свободного программного обеспечения.
+          </p>
+        </div>
+        <div class="tile">
+          <img src="./images/arch_image.png" alt="arch linux screenshot" />
+          <h4>Arch Linux</h4>
+          <p>
+            Легковесный и гибкий дистрибутив операционной системы Linux, ориентированный на опытных пользователе
+            и тех, кто предпочитает настраивать систему под свои потребности.
+          </p>
+        </div>
+        <div class="tile">
+          <img src="./images/mint_image.png" alt="linux mint screenshot" />
+          <h4>Linux Mint</h4>
+          <p>
+            Популярный дистрибутив операционной системы Linux, ориентированный на простоту использования
+            и комфорт для пользователей, переходящих с других операционных систем, таких как Windows.
+          </p>
+        </div>
+        <div class="tile">
+          <img src="./images/debian_image.png" alt="debian screenshot" />
+          <h4>Debian</h4>
+          <p>
+            Один из самых старейших дистрибутивов, который известен своей стабильностью,
+            надежностью и строгим соблюдением принципов свободного и открытого программного обеспечения.
+          </p>
+        </div>
+        <div class="tile">
+          <img src="./images/centos_image.png" alt="centos screenshot" />
+          <h4>CentOS</h4>
+          <p>
+            Дистрибутив, который известен своей стабильностью, надежностью и долгосрочной поддержкой.
+            Является популярным выбором для предприятий и организаций.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="docs" class="sec-padding">
+      <h3 class="section-heading">Документация</h3>
+      <div class="sec-content-div">
+        <div class="bars">
+          <div class="icon-container">
+            <img src="./images/terminal_logo.png" alt="" />
+          </div>
+          <div class="txt-container">
+            <h5>Основные команды</h5>
+            <p>Практические руководства, полезные советы и примеры использования терминала Linux.</p>
+          </div>
+        </div>
+        <div class="bars">
+          <div class="icon-container">
+            <img src="./images/open_source_logo.png" alt="" />
+          </div>
+          <div class="txt-container">
+            <h5>Программное обеспечение</h5>
+            <p>
+              Полезные руководства, инструкции и справочные материалы о различных проектах с открытым исходным кодом.
+            </p>
+          </div>
+        </div>
+        <div class="bars">
+          <div class="icon-container">
+            <img src="./images/docs_logo.png" alt="" />
+          </div>
+          <div class="txt-container">
+            <h5>Руководства по установке и настройке</h5>
+            <p>
+              Пошаговые инстркции о установке операционной системы Linux и настройке её основных компонентов.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-linux" class="sec-padding">
+      <h3 class="section-heading">О Linux</h3>
+      <div class="sec-content-div flexible">
+        <iframe id="video" width="560" title="История Linux" height="315"
+          src="https://www.youtube.com/embed/t2iMS8V8v_U?si=ZDwlipHKgkMV3vI0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+    <section class="sec-padding" id="contact">
+      <div class="sec-content-div flexible">
+        <h6>Будьте в курсe последних новостей и обновлений :</h6>
+        <form id="form" action="#">
+          <input type="email" name="email" id="email" placeholder="Адрес электронной почты" required />
+          <input type="submit" class="btn" id="submit" value="Подписаться" />
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    Created by
+    <a href="#">Sidun Sergey</a>
+  </footer>
+</body>
+
+</html>
