@@ -336,12 +336,9 @@ footer a {
   text-decoration: none;
 }
 
-
-/* Define CSS for image transitions */
 #imageRoller img {
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
-  /* Adjust timing as needed */
 }
 
 #imageRoller img.fade-out {
